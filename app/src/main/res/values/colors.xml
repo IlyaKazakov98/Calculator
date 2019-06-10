@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ff6d00</color>
+    <color name="colorPrimaryDark">#e65100</color>
+    <color name="colorAccent">#ff9100</color>
+    <color name="colorBackGroundCalc">#e0e0e0</color>
+    <color name="colorBackGroundBtn">#fafafa</color>
+    <color name="colorBackGroundEqually">#ff6d00</color>
+    <color name="colorTextAnswer">#757575</color>
+</resources>

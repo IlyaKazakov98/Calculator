@@ -1,0 +1,45 @@
+<resources>
+
+    !— Base application theme. —>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        !— Customize your theme here. —>
+        <item name="colorPrimary">@color/colorBackGroundEqually</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="ButtonOther">
+        <item name="android:layout_gravity">fill</item>
+        <item name="android:textSize">@dimen/btn_text_size</item>
+        <item name="android:background">@drawable/btn_rectangle_grey</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:elevation">8dp</item>
+    </style>
+
+    <style name="ButtonNumber">
+        <item name="android:layout_gravity">fill</item>
+        <item name="android:textSize">@dimen/btn_text_size</item>
+        <item name="android:onClick">onClickNumber</item>
+        <item name="android:background">@drawable/btn_rectangle_grey</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:elevation">8dp</item>
+    </style>
+
+    <style name="ButtonOperator">
+        <item name="android:layout_gravity">fill</item>
+        <item name="android:textSize">@dimen/btn_text_size</item>
+        <item name="android:onClick">onClickOperators</item>
+        <item name="android:background">@drawable/btn_rectangle_grey</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:elevation">8dp</item>
+    </style>
+
+    <style name="TextViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_view_answer</item>
+        <item name="android:gravity">right</item>
+        <item name="android:textColor">@color/colorTextAnswer</item>
+    </style>
+
+</resources>
